@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-17 19:36-0300\n"
+"POT-Creation-Date: 2023-08-18 11:13-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,22 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\recipes\templates\recipes\pages\home.html:47
-msgid "Preparation"
-msgstr "Preparo"
-
-#: .\recipes\templates\recipes\pages\home.html:56
-msgid "Servings"
-msgstr "Porções"
-
-#: .\recipes\templates\recipes\pages\home.html:67
-msgid "Read more"
-msgstr "Ver mais"
-
+#: .\base_templates\global\base.html:7
 #: .\recipes\templates\recipes\partials\_header.html:8
 msgid "Recipes"
 msgstr "Receitas"
 
+#: .\recipes\templates\recipes\partials\_main_list.html:37
+msgid "Preparation"
+msgstr "Preparo"
+
+#: .\recipes\templates\recipes\partials\_main_list.html:44
+msgid "Servings"
+msgstr "Porções"
+
+#: .\recipes\templates\recipes\partials\_main_list.html:53
+msgid "Read more"
+msgstr "Ver mais"
+
 #: .\recipes\templates\recipes\partials\_search.html:5
 msgid "Type something to search"
 msgstr "Digite algo para pesquisar"
+
+#: .\recipes\views.py:16
+msgid "Recipe"
+msgstr "Receita"
