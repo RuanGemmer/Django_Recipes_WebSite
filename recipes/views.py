@@ -9,7 +9,7 @@ html_language = translation.get_language()
 def home(request):
     return render(request, "recipes/pages/home.html", context={
         'html_language': html_language,
-        'title': 'home',
+        'title': 'Home',
         'recipes': [make_recipe() for _ in range(10)],
     })
 
